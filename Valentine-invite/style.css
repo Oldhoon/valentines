@@ -226,6 +226,8 @@ body {
     height: 200px;
     border-radius: 10px;
     overflow: hidden;
+    position: absolute;
+    cursor: grab;
 
 }
 
