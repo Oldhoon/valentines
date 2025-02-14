@@ -103,7 +103,7 @@ body {
 .close .letter {
     transform: translateY(0);
     transition: transform 0.4s 0.6s ease, z-index 1s;
-    z-index: 5;
+    z-index: 1;
 }
 
 .hearts {
@@ -199,5 +199,33 @@ body {
     display: inline-block;
     font-size: 14px;
     text-transform: uppercase;
-    margin: 20px;   
+    margin: 20px;
+    margin-top: 50px;
+    padding: 10px; 
+    line-height: 2em;  
+    min-width: 100px;
+    outline: none;
 }
+
+.reset button:hover {
+    background-color: #ff8BA0;
+    color: white;
+    cursor: pointer;
+}
+
+.valentine {
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
